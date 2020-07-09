@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Novel-Downloader:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7cad91-4191-496d-9a99-a8da1aab727c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mathias.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jsoup_jsoup_1_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/createPDF/CreatePDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/pdfData/PdfBoxnovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webScraper/ScraperBoxnovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Novel_Downloader_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/pdfData/NovelText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuras-wrath.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/shuras-wrath.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/createPDF/CreatePDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/createPDF/CreatePDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/pdfData/PdfBoxnovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pdfData/PdfBoxnovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webScraper/ScraperBoxnovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webScraper/ScraperBoxnovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/createPDF/CreatePDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/createPDF/CreatePDF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/pdfData/PdfBoxnovel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pdfData/PdfBoxnovel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webScraper/ScraperBoxnovel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webScraper/ScraperBoxnovel.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webScraper/ScraperBoxnovel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="521">
+              <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/createPDF/CreatePDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="56" column="71" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+            <state relative-caret-position="357">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#412#413#0" expanded="true" />
@@ -86,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/pdfData/PdfBoxnovel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="e#223#224#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
@@ -97,9 +101,32 @@
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
                 <element signature="e#795#796#0" expanded="true" />
                 <element signature="e#860#861#0" expanded="true" />
                 <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/pdfData/NovelText.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/webScraper/scraperBoxnovel.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/main/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/pdfData/NovelText.java" />
         <option value="$PROJECT_DIR$/src/main/pdfData/PdfBoxnovel.java" />
         <option value="$PROJECT_DIR$/src/main/createPDF/CreatePDF.java" />
         <option value="$PROJECT_DIR$/src/main/webScraper/ScraperBoxnovel.java" />
@@ -138,10 +166,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="24" />
-    <option name="width" value="960" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -201,6 +228,29 @@
             </path>
             <path>
               <item name="Novel-Downloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Novel-Downloader" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Novel-Downloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Novel-Downloader" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Novel-Downloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Novel-Downloader" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Novel_Downloader_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Novel-Downloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Novel-Downloader" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Novel-Downloader" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -217,11 +267,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594251889639" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594288722269" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/NodeJS/js/nodeunit/nodeunit-intellij-starter.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -276,15 +326,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594224167393</updated>
-      <workItem from="1594224169864" duration="23789000" />
+      <workItem from="1594224169864" duration="32216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23789000" />
+    <option name="totallyTimeSpent" value="32216000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -293,7 +343,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10383387" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14483494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Terminal" />
@@ -304,7 +354,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299539" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299539" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,9 +384,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/createPDF/CreatePDF.java</url>
-          <line>57</line>
+          <line>63</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webScraper/ScraperBoxnovel.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -383,10 +439,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pdfData/NovelText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/createPDF/CreatePDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pdfData/PdfBoxnovel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
@@ -396,29 +480,25 @@
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
             <element signature="e#795#796#0" expanded="true" />
             <element signature="e#860#861#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/createPDF/CreatePDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="56" column="71" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/javax/swing/JOptionPane.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webScraper/ScraperBoxnovel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="521">
+          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -431,10 +511,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Novel-Downloader:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

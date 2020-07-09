@@ -6,12 +6,14 @@ public class PdfBoxnovel {
 
     public ArrayList<String> novel = new ArrayList<>();
     public ArrayList<String> allChapters = new ArrayList<>();
+    public ArrayList<NovelText> chapterHeading = new ArrayList<>();
 
     String Novel;
 
-    public PdfBoxnovel(ArrayList<String> novel, ArrayList<String> allChapters ) {
+    public PdfBoxnovel(ArrayList<String> novel, ArrayList<String> allChapters, ArrayList<NovelText> chapterHeading ) {
         novel = new ArrayList<>();
         allChapters = new ArrayList<>();
+        chapterHeading = new ArrayList<>();
     }
 
     public PdfBoxnovel(String novel) {
@@ -39,5 +41,13 @@ public class PdfBoxnovel {
 
     public void setAllChapters(ArrayList<String> allChapters) {
         this.allChapters = allChapters;
+    }
+
+    public ArrayList<NovelText> getChapterHeading() {
+        return chapterHeading;
+    }
+
+    public void setChapterHeading(ArrayList<NovelText> chapterHeading) {
+        this.chapterHeading = chapterHeading;
     }
 }

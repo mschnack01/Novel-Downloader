@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Novel-Downloader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Novel_Downloader_jar</output-path>
+    <root id="archive" name="Novel-Downloader.jar">
+      <element id="module-output" name="Novel-Downloader" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.12.2/jsoup-1.12.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

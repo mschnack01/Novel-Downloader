@@ -51,19 +51,42 @@ public class CreatePDF {
             PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(novelName + ".pdf"));
             document.open();
 
+            int b = 1;
+            int chapter = 0;
+            int depth = 0;
+
             //Create chapter and sections
             for (int i = 0; i < pdfBoxnovel.getAllChapters().size(); i++) {
 
-                if (pdfBoxnovel.allChapters.get(i).contains("Chapter - ")){
-                    int a = i++;
-                    int chapter = 1;
-                    int depth = 0;
-                    Paragraph chapterTitle = new Paragraph(pdfBoxnovel.allChapters.get(a) + "\n\n\n\n");
+                int a = i;
+
+                if (pdfBoxnovel.allChapters.get(i).contains("BoxNovel")){
+                    a = ++i;
+                    b = ++b;
+                    ++chapter;
+                    ++depth;
+                    Paragraph chapterTitle = new Paragraph("Chapter\n\n");
                     Chapter chapter1 = new Chapter(chapterTitle, chapter);
                     chapter1.setNumberDepth(depth);
-                    chapter++;
-                    depth++;
+
                     document.add(chapter1);
+
+                } else if (i == 0){
+
+                    ++chapter;
+
+                    Paragraph chapterTitle = new Paragraph( novelName);
+                    Chapter chapter1 = new Chapter(chapterTitle, chapter);
+                    chapter1.setNumberDepth(depth);
+
+                    ++depth;
+
+                    Paragraph chapterTitle1 = new Paragraph("Chapter\n\n");
+                    Chapter chapter2 = new Chapter(chapterTitle1, chapter);
+                    chapter2.setNumberDepth(depth);
+
+                    document.add(chapter1);
+                    document.add(chapter2);
 
                 } else {
                     document.add(new Paragraph(pdfBoxnovel.allChapters.get(i) + "\n\n"));
