@@ -27,12 +27,13 @@ public class ScraperBoxnovel {
 
     public void getNovel() {
 
-
+    int page = 1;
+    int pageCheck = 2;
 
 String checkWebsite = "boxnovel.com";
 
-        JFrame frame = new JFrame("Choose a website");
-        String novelWebsite = (String) JOptionPane.showInputDialog(frame,
+        JFrame frame1 = new JFrame("Choose a website");
+        String novelWebsite = (String) JOptionPane.showInputDialog(frame1,
                 "From what website do you wish to download the from?",
                 "Choose a website",
                 JOptionPane.QUESTION_MESSAGE,
@@ -41,12 +42,21 @@ String checkWebsite = "boxnovel.com";
                 websites[0]);
 
         String novelName = JOptionPane.showInputDialog("Novel Name - Make sure to put '-' between each word: 'shuras-wrath'");
-
+/*
+        JFrame frame2 = new JFrame("MessageDialog");
+        JOptionPane pane = new JOptionPane();
+        pane.setMessage("downloaded chapter " + page);
+        JProgressBar jProgressBar = new JProgressBar(page, pageCheck);
+        jProgressBar.setValue(page);
+        JDialog dialog = pane.createDialog(frame2, "Information message" + page);
+        dialog.setVisible(true);
+        dialog.dispose();
+        */
 
         if (novelWebsite.equals(checkWebsite)) {
 
-            int pageCheck = 2;
-            for (int page = 1; page <= pageCheck; page++) {
+
+            for (page = 1; page <= pageCheck; page++) {
 
                 int i = 0;
                 String check = "BoxNovel";
