@@ -42,16 +42,6 @@ String checkWebsite = "boxnovel.com";
                 websites[0]);
 
         String novelName = JOptionPane.showInputDialog("Novel Name - Make sure to put '-' between each word: 'shuras-wrath'");
-/*
-        JFrame frame2 = new JFrame("MessageDialog");
-        JOptionPane pane = new JOptionPane();
-        pane.setMessage("downloaded chapter " + page);
-        JProgressBar jProgressBar = new JProgressBar(page, pageCheck);
-        jProgressBar.setValue(page);
-        JDialog dialog = pane.createDialog(frame2, "Information message" + page);
-        dialog.setVisible(true);
-        dialog.dispose();
-        */
 
         if (novelWebsite.equals(checkWebsite)) {
 
@@ -65,7 +55,9 @@ String checkWebsite = "boxnovel.com";
 
                 Document doc = null;
                 try {
+
                     doc = Jsoup.connect("https://boxnovel.com/novel/" + novelName + "/chapter-" + page).userAgent("mozilla/17.0").get();
+
                 } catch (IOException e) {
                     e.printStackTrace();
                     String errorMessage1 = "Could not find novel, try again";
@@ -76,10 +68,28 @@ String checkWebsite = "boxnovel.com";
 
                 Elements temp = doc.select("p");
 
+                int k = 1;
+
+                 if (temp.size() < 30) {
+
+                    try {
+                        doc = Jsoup.connect("https://boxnovel.com/novel/" + novelName + "/chapter-" + page + "_" + k).userAgent("mozilla/17.0").get();
+                        temp = doc.select("p");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                    k++;
+
+                }
+
+
+
                 Elements test = doc.getElementsByClass("nav-next");
 
 
-                if (test.size() == 2) {
+
+                if (test.size() != 1) {
                     pageCheck++;
 
 
