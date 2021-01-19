@@ -10,8 +10,6 @@ import org.jsoup.select.Elements;
 
 import javax.swing.*;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class ScraperBoxnovel {
 
@@ -27,7 +25,7 @@ public class ScraperBoxnovel {
 
     public void getNovel() {
 
-        int page = 1;
+        int page;
         int pageCheck = 2;
 
         String checkWebsite1 = "boxnovel.com";
@@ -143,7 +141,7 @@ public class ScraperBoxnovel {
 
                     }
 
-                    createPDF.Test(novelName);
+                    createPDF.writePDF(novelName);
 
                 }
                 String errorMessage2 = "Download Complete";
@@ -234,7 +232,7 @@ public class ScraperBoxnovel {
                     }
 
                     if (temp.size() > 30) {
-                        createPDF.Test(novelName);
+                        createPDF.writePDF(novelName);
                     } else {
                         break;
                     }

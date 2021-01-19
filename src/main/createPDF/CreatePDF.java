@@ -2,13 +2,7 @@ package main.createPDF;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.List;
-
 import com.itextpdf.text.*;
-import com.itextpdf.text.pdf.PdfContentByte;
-import com.itextpdf.text.pdf.PdfReader;
-import com.itextpdf.text.pdf.PdfStamper;
 import com.itextpdf.text.pdf.PdfWriter;
 import main.pdfData.PdfBoxnovel;
 
@@ -40,7 +34,7 @@ public class CreatePDF {
 
     }
 
-    public void Test(String novelName){
+    public void writePDF(String novelName){
 
         Document document = new Document();
 
